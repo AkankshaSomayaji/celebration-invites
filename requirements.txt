@@ -1,0 +1,8 @@
+# npm install
+sass
+react-bootstrap
+react-router-dom
+react-confetti
+@fontsource/caveat
+styled-components
+bootstrap
