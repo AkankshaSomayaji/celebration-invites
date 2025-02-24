@@ -15,7 +15,7 @@ const Invite = () => {
                     <p style={{fontFamily:"'Berkshire Swash', cursive"}}>
                         I hope you're here to celebrate Love! <br/><br/> Let's hear Arjun's story now, shall we?
                     </p>
-                    <div id='coffeeImage'></div>
+                    <div id='allSmiles'></div>
                 </div>
             </ParallaxLayer>
             

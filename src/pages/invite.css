@@ -11,6 +11,16 @@ body {
     align-items: center;
 }
 
+#allSmiles {
+    background-image: url('allSmiles.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50vw; /* Makes it scale with the screen */
+    max-height: 400px; /* Prevents it from getting too large */
+    width: 50vw;
+    max-width: 400px;
+}
+
 #coffeeImage {
     background-image: url('coffeeSpill.png');
     background-size: contain;
