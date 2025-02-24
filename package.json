@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fontsource/berkshire-swash": "^5.1.1",
     "@fontsource/caveat": "^5.1.1",
+    "@fontsource/corinthia": "^5.1.1",
+    "@react-spring/parallax": "^9.7.5",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.2.0",

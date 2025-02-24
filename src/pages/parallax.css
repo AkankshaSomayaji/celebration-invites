@@ -1,0 +1,24 @@
+body {
+    background-color: #FFCB81;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.parallax-section {
+    height: 100vh;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    color: rgb(16, 12, 12);
+    text-align: center;
+}
+
+#coffeeImage {
+    background-image: url('coffeeSpill.png');
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    right: 15%;
+    bottom: 65%;
+}

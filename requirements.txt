@@ -6,3 +6,4 @@ react-confetti
 @fontsource/caveat
 styled-components
 bootstrap
+@react-spring/parallax #--legacy-peer-deps

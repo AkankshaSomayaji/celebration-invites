@@ -4,6 +4,7 @@ import './App.scss';
 import "@fontsource/caveat";
 import * as urls from "./utils/urls";
 import Invite from "./pages/invite/invite";
+import ParallaxClass from "./pages/parallax";
 import NotFoundPage from "./pages/404notFound";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
                     <Routes>
                         <Route path={urls.DEFAULT_ENDPOINT} element={<Invite />} />
                         <Route path={urls.INVITE_ENDPOINT} element={<Invite/>}/>
+                        <Route path={urls.PARALLAX_ENDPOINT} element={<ParallaxClass/>}/>
                         <Route path={urls.NOT_FOUND_ENDPOINT} element={<NotFoundPage/>}/>
                         <Route path="*" element={<Navigate to={urls.NOT_FOUND_ENDPOINT} replace="true" />}/>
                     </Routes>
