@@ -5,20 +5,18 @@ body {
 }
 
 .parallax-section {
-    height: 100vh;
     display: flex;
-    /* flex-direction: column; */
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    color: rgb(16, 12, 12);
-    text-align: center;
 }
 
 #coffeeImage {
     background-image: url('coffeeSpill.png');
-    height: 500px;
-    width: 500px;
-    position: absolute;
-    right: 15%;
-    bottom: 65%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50vw; /* Makes it scale with the screen */
+    max-height: 400px; /* Prevents it from getting too large */
+    width: 50vw;
+    max-width: 400px;
 }

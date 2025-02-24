@@ -3,7 +3,7 @@ import Confetti from 'react-confetti';
 import Button from './celebrate';
 import HeartToggle from './heartToggle';
 
-class Invite extends React.Component {
+class InviteButtonPage extends React.Component {
   state = {
     showConfetti: false,
     isPlaying: false,
@@ -55,4 +55,4 @@ class Invite extends React.Component {
   }
 }
 
-export default Invite;
+export default InviteButtonPage;
