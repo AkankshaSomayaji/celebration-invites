@@ -1,9 +1,9 @@
 # npm install
-sass
-react-bootstrap
-react-router-dom
-react-confetti
-@fontsource/caveat
-styled-components
-bootstrap
-@react-spring/parallax #--legacy-peer-deps
+# sass
+# react-bootstrap
+# react-router-dom
+# react-confetti
+# @fontsource/caveat
+# styled-components
+# bootstrap
+# @react-spring/parallax #--legacy-peer-deps
