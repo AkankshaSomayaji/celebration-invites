@@ -13,7 +13,7 @@ const Invite = () => {
             <ParallaxLayer offset={0.4} speed={0.5} factor={1}>
                 <div className='parallax-section'>
                     <p style={{fontFamily:"'Berkshire Swash', cursive"}}>
-                        I hope you're here to celebrate Love! <br/><br/> Let's hear Arjun's story now, shall we?
+                        I guess you're here to celebrate Love! <br/><br/> Let's hear Arjun's story now, shall we?
                     </p>
                     <div id='allSmiles'></div>
                 </div>
