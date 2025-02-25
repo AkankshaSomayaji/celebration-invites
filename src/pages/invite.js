@@ -2,6 +2,7 @@ import React from 'react';
 import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 import { useRef } from 'react';
 import './invite.css';
+import TitleBar from './titlebar';
 
 import '@fontsource/berkshire-swash';
 import '@fontsource/corinthia';
@@ -9,6 +10,7 @@ import '@fontsource/corinthia';
 const Invite = () => {
     const ref = useRef()
     return (
+        <div> <TitleBar /> {/* Fixed title bar */}
         <Parallax pages={6} ref={ref}>
             <ParallaxLayer offset={0.4} speed={0.5} factor={1}>
                 <div className='parallax-section'>
@@ -115,6 +117,7 @@ const Invite = () => {
 
             {/* <button onClick={() => ref.current.scrollTo(0)}>Scroll to top</button> */}
         </Parallax>
+        </div>
     )
 };
 

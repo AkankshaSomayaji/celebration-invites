@@ -1,0 +1,15 @@
+.title-bar {
+    position: fixed;
+    width: 100%;
+    background: rgba(255, 203, 129, 0.6);
+    text-align: center;
+    font-weight: bold;
+    z-index: 1000;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10vh;
+}
+  
