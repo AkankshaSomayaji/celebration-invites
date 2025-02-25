@@ -29,7 +29,7 @@ const StyledWrapper = styled.div`
    border-top-right-radius: 100px;
    width: 10px;
    height: 8px;
-   border-bottom: 0
+   border-bottom: 0;
   }
 
   .round {
@@ -118,6 +118,72 @@ const StyledWrapper = styled.div`
    left: -1px;
    top: 5px;
    border-radius: 0px 0px 0px 5px;
-  }`;
+  }
+
+  @media (max-width: 600px) {
+    .love-heart, .love-heart::after {
+      width: 8px;
+      height: 6.4px;
+      border-top-left-radius: 80px;
+      border-top-right-radius: 80px;
+    }
+
+    .round {
+      width: 6.4px;
+      height: 6.4px;
+      left: 0px;
+      bottom: -0.8px;
+    }
+
+  @keyframes check-animation {
+    0% {
+     transform: translate(0px, 0px);
+    }
+ 
+    50% {
+     transform: translate(0px, 5.6px);
+    }
+ 
+    100% {
+     transform: translate(5.6px, 5.6px);
+    }
+   }
+ 
+   @keyframes check-animation2 {
+    0% {
+     transform: translate(5.6px, 5.6px);
+    }
+ 
+    50% {
+     transform: translate(0px, 5.6px);
+    }
+ 
+    100% {
+     transform: translate(0px, 0px);
+    }
+   }
+
+    .love-heart {
+      transform: rotate(-45deg) translate(-50%, -26.4px) scale(3.2);
+    }
+
+    input:checked + .love-heart, input:checked + .love-heart::after, input:checked + .love-heart .bottom {
+      box-shadow: inset 5.4px -4px 0px 0.6px hsl(347deg 99% 72%);
+    }
+
+    .love-heart::after {
+      right: -7.2px;
+      top: 5.6px;
+    }
+
+    .love-heart .bottom {
+      width: 8.8px;
+      height: 8.8px;
+      left: -0.8px;
+      top: 4px;
+      border-radius: 0px 0px 0px 4px;
+    }
+  }
+`;
 
 export default HeartToggle;
